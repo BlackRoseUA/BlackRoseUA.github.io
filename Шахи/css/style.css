@@ -1,0 +1,21 @@
+.string
+{
+	margin: 0;
+	display: flex;
+	width: 1000px;
+	height: 100px;
+	list-style: none;
+}
+
+.string div
+{
+	margin: 0;
+	width: 100px;
+	height: 100px;
+}
+
+.string:nth-child(odd) div:nth-child(odd),
+.string:nth-child(even) div:nth-child(even) 
+{
+	background-color: #000;
+}

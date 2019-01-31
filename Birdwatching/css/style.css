@@ -1,0 +1,187 @@
+body
+{
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	margin: 0;
+}
+
+ul
+{
+	list-style: none;
+	padding: 0;
+}
+
+a
+{
+	text-decoration: none;
+	color: #fff;
+}
+
+.header
+{
+	padding: 25px 0px 10px 0px;
+}
+
+.header-title
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.title
+{
+	font-size: 36px;
+	color: rgba(0, 0, 0, 0.8);
+	text-shadow: 0 0 10px #000;
+}
+
+.raven
+{
+	margin-right: 10px;
+	width: 50px;
+	height: 50px;
+}
+
+.nav
+{
+	padding: 10px 25px 10px 25px; 
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.list
+{
+	display: flex;
+	justify-content: space-around;
+}
+
+.list-link
+{
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.list-link:hover
+{
+	color: #BA68C8;
+	text-shadow: 0 0 10px #BA68C8;
+}
+
+.main
+{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+
+.content
+{
+	margin-right: 10px;
+	padding: 20px 10px 10px 10px;
+	width: 65%;
+	height: 340px;
+	font-size: 18px;
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.content-title
+{
+	font-size: 30px;
+	text-align: center;
+}
+
+.sidebar
+{
+	padding: 20px 10px 10px 10px;
+	width: 35%;
+	height: 340px;
+	color: #fff;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.sidebar-title
+{
+	font-size: 30px;
+	margin-bottom: 5px;
+}
+
+.bird-wrapper
+{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.bird-img
+{
+	margin: 0px 0px 10px 10px;
+	width: 200px;
+	height: 115px;
+}
+
+.footer
+{
+	padding: 10px 25px 10px 25px; 
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.footer-link
+{
+	color: #BA68C8;
+}
+
+.footer-link:hover
+{
+	text-shadow: 0 0 10px #BA68C8;
+}
+
+@media screen and (max-width: 768px)
+{
+	.nav
+	{
+		padding: 8px 20px 8px 20px;
+		background-color: #000;
+	}
+
+	.list-link
+	{
+		font-size: 14px;
+	}
+
+	.main
+	{
+		display: block;
+	}
+
+	.content
+	{
+		margin: 0px 0px 10px 0px;
+		width: 100%;
+		height: auto;
+		background-color: #000;
+	}
+
+	.sidebar
+	{
+		width: 100%;
+		height: auto;
+		background-color: #000;
+	}
+
+	.bird-wrapper
+	{
+		display: block;
+	}
+
+	.footer
+	{
+		background-color: #000;
+	}
+}
