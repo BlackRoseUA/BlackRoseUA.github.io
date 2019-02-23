@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Registration</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<main class="main-bg">
+		<form class="reg-form">
+			<h1 class="reg-form__title">Create your free account</h1>
+			<p class="reg-form__intro">
+				You should write text in forms.
+			</p>
+			<input type="text" placeholder="First name" class="input-field" id="first-name">
+			<input type="text" placeholder="Middle name" class="input-field" id="middle-name">
+			<input type="text" placeholder="Last name" class="input-field" id="last-name">
+			<input type="date" value="2018-07-22" min="2018-01-01" max="2018-12-31" class="input-field" id="date">
+			<input type="tel" placeholder="Telephone number" class="input-field" id="telephone-num">
+			<input type="text" placeholder="Address" class="input-field" id="address">
+			<p class="gender-title">Choose your gender:
+				<label>
+					<input type="radio" name="choise" checked id="gender"> Male
+				</label> 
+				<label>
+					<input type="radio" name="choise"> Female
+				</label>
+				<label class="block">
+					<input type="checkbox" checked id="from-here"> I`m from here
+				</label>
+			</p>
+			<input type="text" placeholder="Enter your mathematics score" class="input-field" id="math-score">
+			<input type="text" placeholder="Enter your ukrainian language score" class="input-field" id="ukr-score">
+			<input type="file" class="input-file">
+			<div class="buttons">
+				<button type="submit" class="reg-form__submit" onclick="openForm()">
+					Submit
+				</button>
+				<button type="submit" class="reg-form__close" onclick="closeForm()">
+					Close
+				</button>
+			</div>
+		</form>
+	</main>
+	<script src="js/main.js"></script>
+</body>
+</html>

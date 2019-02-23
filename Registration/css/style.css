@@ -1,0 +1,154 @@
+body
+{
+	margin: 0;
+	padding: 70px 0px;
+	height: 100%;
+	font-family: Arial, sans-serif;
+	line-height: 1.2;
+	background-image: linear-gradient(to top right, #ff512f, #dd2476);
+	background-repeat: no-repeat;
+}
+
+input
+{
+	margin: 3px 0px;
+}
+
+p
+{
+	margin: 0;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+h1
+{
+	margin: 0;
+}
+
+.block
+{
+	display: block;
+	padding-top: 5px;
+}
+
+.input-field
+{
+	margin-top: 15px;
+	padding: 0;
+	padding-left: 14px;
+	width: 400px;
+	height: 40px;
+	font-size: 14px;
+	color: #7a7b7f;
+	border: none;
+	border-radius: 4px;
+	background-color: #f0f0f0;
+}
+
+.input-field--margin-right
+{
+	margin-right: 10px;
+}
+
+.input-field-name
+{
+	width: 193px;
+}
+
+.reg-form
+{
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 50px 30px 30px 30px;
+	width: 460px;
+	background-color: #ffffff;
+	border-radius: 4px;
+}
+
+.reg-form__title
+{
+	margin-bottom: 15px;
+	font-size: 24px;
+	color: #1b1c1d;
+	text-align: center;
+}
+
+.reg-form__intro
+{
+	display: block;
+	width: 396px;
+	font-size: 13px;
+	color: #7a7b7f;
+	line-height: 20px;
+}
+
+.reg-form__name
+{
+	margin-top: 19px;
+}
+
+.gender-title
+{
+	box-sizing: border-box;
+	margin-top: 15px;
+	padding: 10px 14px;
+	width: 414px;
+	height: 60px;
+	font-size: 14px;
+	color: #7a7b7f;
+	border: none;
+	border-radius: 4px;
+	background-color: #f0f0f0;
+}
+
+.input-file
+{
+	box-sizing: border-box;
+	margin-top: 15px;
+	padding: 10px;
+	width: 415px;
+	height: 40px;
+	font-size: 14px;
+	color: #7a7b7f;
+	border: none;
+	border-radius: 4px;
+	background-color: #f0f0f0;
+}
+
+.buttons
+{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 25px;
+	width: 415px;
+}
+
+.reg-form__submit
+{
+	width: 200px;
+	height: 50px;
+	font-size: 18px;
+	font-weight: 700;
+	color: #ffffff;
+	background-color: #ea355a;
+	border: none;
+	border-radius: 4px;
+	box-shadow: 0 3px 0 0 #bd1962;
+}
+
+.reg-form__close
+{
+	width: 200px;
+	height: 50px;
+	font-size: 18px;
+	font-weight: 700;
+	color: #ffffff;
+	background-color: #ea355a;
+	border: none;
+	border-radius: 4px;
+	box-shadow: 0 3px 0 0 #bd1962;
+}
