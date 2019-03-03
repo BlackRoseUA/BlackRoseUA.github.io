@@ -1,6 +1,4 @@
-var win;
-
-function openForm()
+function openForm(evt)
 {
 	win = window.open("about:blank", "hello", "width=400, height=600");
 	var str = document.getElementById('first-name').value;

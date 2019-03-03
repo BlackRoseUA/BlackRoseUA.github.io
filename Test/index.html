@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Test</title>
+</head>
+<body>
+	<form name="test">
+		<p id="1">У якій галактиці ми живемо?</p>
+		<input type="text" name="vopr1"><p>
+		<p id="2">Скільки планет у сонячній системі?</p>
+		<input type="text" name="vopr2"><p>
+		<p id="3">Яка планета сонячної системи є найменшою?</p>
+		<input type="radio" name="vopr3">Меркурий
+		<input type="radio" name="vopr3">Марс<br>
+		<input type="radio" name="vopr3">Земля<p>
+		<p id="4">Яка планета сонячної системи є найбільшою?</p>
+		<input type="radio" name="vopr4">Сатурн<br>
+		<input type="radio" name="vopr4">Юпітер<br>
+		<input type="radio" name="vopr4">Венера<p>
+		<p id="5">Оберіть найхолодніші планети сонячної системи</p>
+		<input type="checkbox" name="vopr5">Нептун<br>
+		<input type="checkbox" name="vopr5">Венера<br>
+		<input type="checkbox" name="vopr5">Уран<p>
+		<p id="6">Оберіть найгарячіші планети сонячної системи</p>
+		<input type="checkbox" name="vopr6">Юпитер<br>
+		<input type="checkbox" name="vopr6">Меркурий<br>
+		<input type="checkbox" name="vopr6">Венера<p>
+		<p id="7">Какая средняя температура на земле?</p>
+		<select name="vopr7">
+			<option value="1">7.2</option>
+			<option value="2">6.9</option>
+			<option value="3">8.1</option>
+		</select><p>
+		<p id="8">Яка найвища температура була зафіксована на землі?</p>
+		<select name="vopr8">
+			<option value="1">77.1</option>
+			<option value="2">91.2</option>
+			<option value="3">70.7</option>
+		</select><p>
+		<input type="button" value="Перевірити" id="check">
+	</form>
+	<div id="result">
+		
+	</div>
+	<script type="text/javascript">
+		window.onload = function() {
+			document.getElementById("check").addEventListener("click", function(){
+				var i=0;
+				if(document.test.vopr1.value=="Чумацький шлях" || document.test.vopr1.value=="Milky way") i++ else ;
+				if(document.test.vopr2.value=="8") i++;
+				if(document.test.vopr3[0].checked) i++;
+				if(document.test.vopr4[1].checked) i++;
+				if(document.test.vopr5[0].checked && document.test.vopr5[2].checked) i++;
+				if(document.test.vopr6[1].checked && document.test.vopr6[2].checked) i++;
+				if(document.test.vopr7.value=="1") i++;
+				if(document.test.vopr8.value=="3") i++;
+				document.getElementById("result").innerHTML = ("Правильних відповідей - " + i);
+			});
+		};
+	</script>
+</body>
+</html>
