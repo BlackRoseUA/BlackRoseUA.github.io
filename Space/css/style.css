@@ -301,6 +301,11 @@ button:focus{
 	z-index: 2;
 }
 
+.lang
+{
+	cursor: pointer;
+}
+
 .lang-darkest
 {
 	box-sizing: border-box;
