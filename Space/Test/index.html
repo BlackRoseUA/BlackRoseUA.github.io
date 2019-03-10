@@ -47,7 +47,7 @@
 		window.onload = function() {
 			document.getElementById("check").addEventListener("click", function(){
 				var i=0;
-				if(document.test.vopr1.value=="Чумацький шлях" || document.test.vopr1.value=="Milky way") i++ else ;
+				if(document.test.vopr1.value=="Чумацький шлях" || document.test.vopr1.value=="Milky way") i++;
 				if(document.test.vopr2.value=="8") i++;
 				if(document.test.vopr3[0].checked) i++;
 				if(document.test.vopr4[1].checked) i++;
@@ -68,6 +68,7 @@
 					document.getElementById("result").style = "color: red";
 					document.getElementById("result").innerHTML = ("Правильних відповідей - " + i);
 				}
+				
 			});
 		};
 	</script>
