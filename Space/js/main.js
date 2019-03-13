@@ -39,15 +39,15 @@ closeMenuBtn.click(function(evt)
 
 lang.click(function(evt)
 {
-	if ($(this).text() == 'ENG')
+	if ($(this).text() == 'UK')
 	{
-		$(this).text('UK');
+		$(this).text('ENG');
 		$(this).siblings('.text-eng').toggleClass('visually-hidden');
 		$(this).siblings('.text-uk').toggleClass('visually-hidden');
 	}
 	else
 	{
-		$(this).text('ENG');
+		$(this).text('UK');
 		$(this).siblings('.text-eng').toggleClass('visually-hidden');
 		$(this).siblings('.text-uk').toggleClass('visually-hidden');
 	}
